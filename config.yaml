@@ -3,10 +3,11 @@ ssl_port: 6697
 nick: newsnews
 admin: quassel@cpe-70-112-74-178.austin.res.rr.com
 alerts_channel: '#jjalerts'
+mode: +igR
 defaults:
   new: all
 feeds:
-  "#jjnews":
+  "#news":
     Al Jazeera:
       url: http://www.aljazeera.com/xml/rss/all.xml
       period: .2
