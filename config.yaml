@@ -11,36 +11,32 @@ feeds:
     Al Jazeera:
       url: http://www.aljazeera.com/xml/rss/all.xml
       period: .2
-      shorten: true
+      shorten: false
     BBC UK:
       url: http://feeds.bbci.co.uk/news/rss.xml
       period: .2
-      shorten: true
+      shorten: false
     BBC World:
       url: http://feeds.bbci.co.uk/news/world/rss.xml
       period: .2
-      shorten: true
+      shorten: false
     CNN Top Stories:
       url: http://rss.cnn.com/rss/cnn_topstories.rss
       period: .2
-      shorten: true
+      shorten: false
     CNN US:
       url: http://rss.cnn.com/rss/cnn_us.rss
       period: .2
-      shorten: true
+      shorten: false
     New York Times US:
       url: https://rss.nytimes.com/services/xml/rss/nyt/US.xml
       period: .2
-      shorten: true
+      shorten: false
     New York Times World:
       url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
       period: .2
-      shorten: true
+      shorten: false
     NPR:
       url: https://feeds.npr.org/1001/rss.xml
       period: .2
-      shorten: true
-    Sputnik News:
-      url: https://sputniknews.com/export/rss2/world/index.xml
-      period: .2
-      shorten: true
+      shorten: false
