@@ -1,42 +1,44 @@
 host: irc.libera.chat
 ssl_port: 6697
 nick: newsnews
-admin: quassel@cpe-70-112-74-178.austin.res.rr.com
+admin: jjasghar!~jjasghar@cpe-66-25-27-104.tx.res.rr.com
 alerts_channel: '#jjalerts'
 mode: +igR
 defaults:
   new: all
+publish:
+  github: jjasghar/newsnews-libera-live
 feeds:
   "#news":
     Al Jazeera:
       url: http://www.aljazeera.com/xml/rss/all.xml
       period: .2
-      shorten: false
+      shorten: true
     BBC UK:
       url: http://feeds.bbci.co.uk/news/rss.xml
       period: .2
-      shorten: false
+      shorten: true
     BBC World:
       url: http://feeds.bbci.co.uk/news/world/rss.xml
       period: .2
-      shorten: false
+      shorten: true
     CNN Top Stories:
       url: http://rss.cnn.com/rss/cnn_topstories.rss
       period: .2
-      shorten: false
+      shorten: true
     CNN US:
       url: http://rss.cnn.com/rss/cnn_us.rss
       period: .2
-      shorten: false
+      shorten: true
     New York Times US:
       url: https://rss.nytimes.com/services/xml/rss/nyt/US.xml
       period: .2
-      shorten: false
+      shorten: true
     New York Times World:
       url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
       period: .2
-      shorten: false
+      shorten: true
     NPR:
       url: https://feeds.npr.org/1001/rss.xml
       period: .2
-      shorten: false
+      shorten: true
